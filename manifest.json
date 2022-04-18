@@ -1,0 +1,9 @@
+ {
+  "name": "Blank NTP",
+  "version": "1.0",
+  "description": "Make the Chromium New Tab Page blank.",
+  "manifest_version": 3,
+  "chrome_url_overrides" : {
+    "newtab": "./blank.html"
+  }
+}
